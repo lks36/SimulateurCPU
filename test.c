@@ -6,7 +6,7 @@
 
 int run_program(CPU* cpu){
     int running = 1;
-    char input= malloc(1);
+    char input;
 
     printf("Affichage des registres :\n");
     
