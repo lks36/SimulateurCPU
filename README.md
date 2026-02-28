@@ -41,10 +41,10 @@ Le projet est structuré de manière modulaire pour faciliter la maintenance et 
   
 ## Structure du Projet
 
-* [cite_start]`hash.c / .h` : Implémentation de la table de hachage générique (gestion des registres et labels)
-* [cite_start]`segment.c / .h` : Logique de segmentation mémoire et gestion des blocs libres/alloués
-* [cite_start]`parser.c / .h` : Analyseur syntaxique pour transformer le pseudo-assembleur en structures `Instruction`
-* [cite_start]`cpu.c / .h` : Simulation du cœur du processeur, du cycle d'instruction et de l'ALU
-* [cite_start]`addressing.c / .h` : Résolution des 5 modes d'adressage via expressions régulières
-* [cite_start]`main.c` : Point d'entrée de l'application et interface utilisateur
+* `hash.c / .h` : Implémentation de la table de hachage générique (gestion des registres et labels)
+* `segment.c / .h` : Logique de segmentation mémoire et gestion des blocs libres/alloués
+* `parser.c / .h` : Analyseur syntaxique pour transformer le pseudo-assembleur en structures `Instruction`
+* `cpu.c / .h` : Simulation du cœur du processeur, du cycle d'instruction et de l'ALU
+* `addressing.c / .h` : Résolution des 5 modes d'adressage via expressions régulières
+* `main.c` : Point d'entrée de l'application et interface utilisateur
 
