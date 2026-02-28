@@ -26,7 +26,7 @@ Ce projet universitaire consiste en la réalisation d'un simulateur d'unité cen
 - `PUSH`, `POP` : Gestion de la pile.
 - `ALLOC`, `FREE` : Gestion dynamique de l'Extra Segment (ES).
 
-## 🛠️ Compilation et Exécution
+## Compilation et Exécution
 
 Le projet est structuré de manière modulaire pour faciliter la maintenance et les tests. Un `Makefile` est fourni pour automatiser la gestion des dépendances.
 
@@ -34,7 +34,17 @@ Le projet est structuré de manière modulaire pour faciliter la maintenance et 
 - Compilateur `gcc`
 - Bibliothèque standard `libc` (avec support `regex.h`)
 
-### Commandes
+### Exécution du projet
 - **Compiler l'application principale** :
   ```bash
   make main
+  
+## Structure du Projet
+
+* [cite_start]`hash.c / .h` : Implémentation de la table de hachage générique (gestion des registres et labels)
+* [cite_start]`segment.c / .h` : Logique de segmentation mémoire et gestion des blocs libres/alloués
+* [cite_start]`parser.c / .h` : Analyseur syntaxique pour transformer le pseudo-assembleur en structures `Instruction`
+* [cite_start]`cpu.c / .h` : Simulation du cœur du processeur, du cycle d'instruction et de l'ALU
+* [cite_start]`addressing.c / .h` : Résolution des 5 modes d'adressage via expressions régulières
+* [cite_start]`main.c` : Point d'entrée de l'application et interface utilisateur
+
