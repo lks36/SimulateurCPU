@@ -1,7 +1,7 @@
 # Simulateur de CPU et Gestionnaire de Mémoire
 
 ## Présentation
-Ce projet universitaire consiste en la réalisation d'un simulateur d'unité centrale de traitement (CPU) capable d'exécuter un langage pseudo-assembleur. Il reproduit les mécanismes fondamentaux d'un processeur réel, de la gestion des registres à l'allocation dynamique de la mémoire.
+Ce projet d'étude universitaire consiste en la réalisation d'un simulateur d'unité centrale de traitement (CPU) capable d'exécuter un langage pseudo-assembleur. Il reproduit les mécanismes fondamentaux d'un processeur réel, de la gestion des registres à l'allocation dynamique de la mémoire.
 
 ## Fonctionnalités Clés
 - **Interpréteur de Code** : Analyseur syntaxique (Parser) capable de lire des sections `.DATA` et `.CODE` et de résoudre les étiquettes (labels).
